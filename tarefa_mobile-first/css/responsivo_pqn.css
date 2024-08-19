@@ -24,7 +24,7 @@ body {
 }
 
 header img {
-    width: 320px;
+    width: 100%;
     position: absolute;
 }
 
@@ -33,7 +33,7 @@ header .logo {
     width: 50px;
     position: relative;
     top: 10px;
-    left: 220px;
+    left: 80%;
 }
 /* Vamos sumir com a borda para ganhar espaço. Também sumimos com a imagem de
 fundo para carregar mais rápido. */
