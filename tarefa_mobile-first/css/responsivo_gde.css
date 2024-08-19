@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/*
+Nome: CSS "GRANDE" do site Responsivo (aula 02)
+Data: 2024-08-17
+Descrição: Versão inicial.
+Versão: 0.2
+Autor: Rubens Menezes
+Modificado por: Fabiano Ramos
+*/
+
+header img {
+    width: 980px;
+    position: absolute;
+    margin: auto;
+}
+/*posicionar o logo*/
+header .logo {
+    width: 150px;
+    position: relative;
+    top: 25px;
+    left: 700px;
+}
+/* resposicionar o NAV */
+nav { 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    order: 0;
+    padding-top:80px;
+}
+nav a {
+    text-transform: uppercase;
+    border: none;
+}
+
+body {
+    margin: 20px auto auto auto;
+    padding: 0;
+    background-color: deepskyblue;
+    background: #5694EA url(../images/fundo.jpg) repeat-x 0px 0px;
+
+}
+
+.pagina {
+    margin: auto;
+    max-width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article {
+    order: 1;
+}
+
+.destaque {
+    float: left;
+    margin: 0;
+    justify-content: center;
+    border-top: none;
+}
+
+.titulos {
+    order: 2;
+    display: flex;
+}
+
+footer{
+    order: 3;
+}
+
+.destaque h2 {
+    padding-top: 70px;
+}
+
+p {
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 4em
+}

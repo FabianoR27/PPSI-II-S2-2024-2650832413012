@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*
+Nome: CSS "BASE" do site Responsivo (aula 02)
+Data: 2024-08-17
+Descrição: Versão inicial.
+Versão: 0.2
+Autor: Rubens Menezes
+Modificado por: Fabiano Ramos
+*/
+
+body {
+background-color:#5694EA;
+font-size-adjust: 100%;
+color: #2F325B;
+}
+h1 {
+font-size: 2em; /* 2x o valor padrão da fonttype */
+font-weight: normal;
+/* top, right, bottom, left */
+margin: 0 0 .5em 0;
+}
+h2 {
+font-size: 1.7em;
+margin: 0 0 1em 0; }
+h3 {
+font-size: 1.5em;
+margin: 0 0 1em 0; }
+/* top, right, bottom, left */
+p { margin: 0 0 .75em 0; }
+.pagina {
+max-width: 980px;
+/* top, right, bottom, left */
+margin: 0px auto 0px auto;
+background-color: rgb(255,255,255);
+}
+/* Ajustes de formatação dos destques */
+.destaque {
+width: 33%; /* determinamos a largura */
+float: left; /* todo mundo flutua para a esquerda */
+background-color: #FFF;
+/* border: 1px solid #000; */
+}
+
+.destaque h2 {
+font-weight: 1.1em;
+margin: 0px;
+}
+.destaque p{
+line-height: 1.2em;
+font-size: .9em;
+margin-bottom: .5em;
+}
+
