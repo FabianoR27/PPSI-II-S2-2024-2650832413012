@@ -5,7 +5,7 @@
 
 
 Este repositório contém os trabalhos e projetos desenvolvidos durante o segundo semestre de 2024
-para a disciplina PPSI-II (ISW002) pelo aluno FABIANO RAMOS FERREIRA DE JESUS, R.A. número: 650832413012.
+para a disciplina PPSI-II (ISW002) pelo aluno FABIANO RAMOS FERREIRA DE JESUS, R.A. número: 2650832413012.
 
 
 TAREFAS:
