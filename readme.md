@@ -11,4 +11,4 @@ para a disciplina PPSI-II (ISW002) pelo aluno FABIANO RAMOS FERREIRA DE JESUS, R
 TAREFAS:
 1 - [X]Tarefa 1 - Media-Queries;
 2 - [x]Tarefa 2 - Media-Queries(EMBUTIDO NA TAREFA 1);
-2 - [X]Tarefa 3 - Mobile-first;
+3 - [X]Tarefa 3 - Mobile-first;
