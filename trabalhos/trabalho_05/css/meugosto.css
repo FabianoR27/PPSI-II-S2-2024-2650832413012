@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+
+/*AQUI VOU DEFINIR AS CORES*/
+html {
+    background-color: #eeeeb6;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #00040D;
+}
+
+h1,
+h2,
+h3,
+h4,
+label,
+figcaption,
+th {
+    color:#eeeeb6 ;
+}
+
+p,
+td,
+small,
+span,
+footer a {
+    color: aliceblue;
+}
+
+nav {
+    background-color: #ffd700;
+    position: sticky;
+    z-index: 1;
+    top: 1px;
+}
+
+nav a {
+    color: #00040D;
+}
+
+.borda {
+    width: 80%;
+    margin: auto;
+    border-top: solid 1px #eeeeb6;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+footer {
+    padding-top: 30px;
+    background-image: linear-gradient(to bottom, #00040d,  #020e1e);
+}
+/*aqui acabam as cores*/
+
+
+/*DEFININDO A FONTE*/
+h1,
+h2,
+h3,
+h4,
+th,
+nav a {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+nav a {
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+nav li {
+    margin: auto;
+} 
+/*aqui temina a formatação de fontes*/
+
+/*AQUI VEM OUTRAS COISAS*/
+img { 
+    width: 100%;
+    max-width:max-content;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+section {
+    margin-top: 30px;
+}
+
+section img {
+    min-width: 100px;;
+}
+
+footer ul {
+    list-style:inside;
+
+}
+
+/*MEDIA QUERY - MOBILE*/
+@media (max-width: 550px) {
+    header img {
+        max-width: 550px;
+    }
+
+    nav {
+        position: static;
+    }
+    nav ul {
+        display: block;
+        margin: 10px;
+    }
+    body {
+        display: block;
+    }
+
+    main, aside {
+        text-align: center;
+        
+    }
+    main img {
+        width: auto;
+    }
+
+    section {
+        text-align: center;
+    }
+    
+    footer img {
+        width: 50px;
+    }
+}
