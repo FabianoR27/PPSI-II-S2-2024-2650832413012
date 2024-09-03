@@ -10,7 +10,8 @@ para a disciplina PPSI-II (ISW002) pelo aluno FABIANO RAMOS FERREIRA DE JESUS, R
 
 
 TAREFAS:
-1 - [X]Tarefa 1 - Entregue;
-2 - [x]Tarefa 2 - Entregue;
-3 - [X]Tarefa 3 - Entregue;
-4 - [X]Tarefa 4 - Entregue;
+- 1. [X]Tarefa 1 (MEDIA-QUERIES)- Entregue;
+- 2. [x]Tarefa 2 (MEDIA-QUERIES PT.2)- Entregue;
+- 3. [X]Tarefa 3 (MOBILE-FIRST)- Entregue;
+- 4. [X]Tarefa 4 (SKELETON NO SITE DO BATMAN)- Entregue;
+- 5. [X]Tarefa 5 (LAYOUTS COM SKELETON)- Entregue;
