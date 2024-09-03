@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/*
+Nome: CSS "PEQUENO" do site Responsivo (aula 03)
+Data: 2024-08-17
+Descrição: Versão inicial.
+Versão: 0.2
+Autor: Rubens Menezes
+Modificado por: Fabiano Ramos
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: yellowgreen;
+    background-image: none;
+    margin: auto;
+}
+
+.pagina {
+    display: block;
+}
+
+header img {
+    width: 100%;
+    position: absolute;
+}
+
+/* troca e posiciona o logo */
+header .logo {
+    width: 50px;
+    position: relative;
+    top: 10px;
+    left: 80%;
+}
+/* Vamos sumir com a borda para ganhar espaço. Também sumimos com a imagem de
+fundo para carregar mais rápido. */
+
+/* Agora começa o "Show do Menu" */
+nav {
+    position: static;
+    padding: 10px 0px 10px 0px;
+    background-color: #486184;
+}
+/* Como mexemos no NAV e devolvemos ele pára a posição STATIC precisamos arrumar o
+ARTICLE de novo */
+/*top right bottom left*/
+article { 
+    padding: 20px 20px 10px 20px;
+}
+/* Voltamos a mexer no NAV */
+nav a {
+display: block;
+color: #C68831;
+margin: 15px;
+padding: 10px;
+border: 2px solid #FFF;
+border-radius: 12px;
+}
+/*
+Abaixo uma frescurinha pouco útil.
+Por quê é pouco útil?
+*/
+nav a:hover {
+color: #FFF;
+background-color: rgba(255, 255, 255,.15);
+}
+.destaque {
+float:none;
+width: auto;
+margin: 10px ;
+padding: 10px;
+border-top: 3px dashed #CCC;
+}
+
+.destaque img {
+    float: left;
+    margin: 5px;
+}
+
+h1, h2, h3, p {
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
