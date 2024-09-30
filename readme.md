@@ -7,3 +7,6 @@
 
 **R.A.**: 2650832413012
 
+**Descrição do trabalho**:
+Este repositório contém os trabalhos e projetos desenvolvidos durante o segundo semestre de 2024 para a disciplina PPSI-II (ISW002).
+
