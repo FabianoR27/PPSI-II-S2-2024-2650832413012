@@ -10,4 +10,4 @@
 **R.A.**: 2650832413012
 
 **Descrição do trabalho**:
-Repositório referente a tarefa 6 - BOOTSTRAP.
+Construir a pagina inicial do Projeto Integrador usando BOOTSTRAP. Sem NAV.

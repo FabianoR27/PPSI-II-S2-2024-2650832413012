@@ -10,4 +10,4 @@
 **R.A.**: 2650832413012
 
 **Descrição do trabalho**:
-Repositório referente a tarefa 4 - SKELETON NO SITE DO BATMAN. Entregue.
+Construa a página do BATMAN utilizando o Skeleton.

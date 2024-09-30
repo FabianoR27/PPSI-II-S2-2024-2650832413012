@@ -10,4 +10,4 @@
 **R.A.**: 2650832413012
 
 **Descrição do trabalho**:
-Repositório referente a tarefa 1 - MEDIA-QUERIES. Entregue.
+Utilizando mídia queries transforme o HTML da esquerda no HTML da direita com a alteração da largura do browser
