@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+
+.banner {
+    width: 100%;
+}
+
+.float-left img{
+    float: left;
+}
+main img {
+    width: 40%;
+}
+
+.bi-instagram {
+    font-size: 40px;
+    color: rgb(255, 48, 108);
+}
+
+.bi-youtube {
+    font-size: 40px;
+    color: rgb(187, 0, 0);
+}
+
+.bi-twitter-x{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.bi-facebook {
+    font-size: 40px;
+    color: rgb(17,120,242);
+}
+
+
+aside img {
+    width: 30%;
+}
+@media (min-width: 576px) { 
+    .banner {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) { 
+    main img {
+        width: max-content;
+    }
+}
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) { 
+    .banner {
+        width: max-content;
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        margin: auto;
+    }
+
+    header nav{
+        padding: 30px 0 30px 0;
+    }
+
+    .navegacao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .navegacao a {
+        padding: 10px;
+    }
+
+
+    main h1 {
+        padding: 20px;
+    }
+
+
+    main, section {
+        margin: 20px auto 20px auto;
+    }
+
+    .float-left img{
+        float: left;
+    }
+
+    .copyright {
+        text-align: right;
+        margin: 10px;
+    }
+
+    #pesquisa {
+        margin: 30px;
+        padding: 5px;
+        border: solid 1px #53534d;
+        border-radius: 20px;
+    }
+
+}
